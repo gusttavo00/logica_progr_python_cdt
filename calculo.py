@@ -31,12 +31,11 @@ def classificar_idade(idade):
         return "Criança"
     elif idade <= 17:
         return "Adolescente"
-    elif idade <= 59:
+    elif idade <= 50:
         return "Adulto"
     else:
         return "Idoso"
 
-# Menu interativo
 while True:
     print("MENU")
     print("1. Soma")
@@ -51,7 +50,7 @@ while True:
     escolha = input("Escolha uma opção (1 a 8): ")
 
     if escolha == "8":
-        print("Saindo... Até logo!")
+        print("Saindo...")
         break
 
     elif escolha in ["1", "2", "3", "4", "5", "6"]:
