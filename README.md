@@ -35,7 +35,7 @@ O menu será exibido novamente até que a opção "8" (Sair) seja selecionada.
 bash
 Copiar
 Editar
-====== MENU ======
+       MENU
 1. Soma
 2. Subtração
 3. Multiplicação
@@ -48,6 +48,7 @@ Escolha uma opção (1 a 8): 1
 Digite o primeiro número: 10
 Digite o segundo número: 5
 Resultado da soma: 15
+
 🛠️ Requisitos
 Python 3.x
 
