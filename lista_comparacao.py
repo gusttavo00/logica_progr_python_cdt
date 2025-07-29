@@ -1,4 +1,3 @@
-
 def menu():
     print("\n#### MENU ####")
     print("1. Adicionar nome")
